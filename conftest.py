@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 def setup():
     """Initialize the webdriver and return driver instance"""
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     driver.maximize_window()
     print("\nBrowser opened and navigated to login page")
