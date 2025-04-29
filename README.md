@@ -60,14 +60,13 @@ capstoneproject/
 │   ├── test_base.py               # Driver initialization fixture
 │   ├── test_main.py               # Login test cases   #TC-01
 │   ├── test_new_user.py           # Test for creating new user  #TC-05
-│   ├── test_exist_user.py         # Test for verifying created user   #TC-06
+│   ├── test_new_user_exist.py     # Test for verifying created user   #TC-06
 │   ├── test_menus.py              # Test navigation and menu     #TC-04
 │   └── test_visible.py            # Visibility tests   #TC-03	 
 │
-│   ├── __init__.py
+│ 
 │   ├── locators.py                # Store element locators (optional)
 │   ├── excel_functions.py         # Excel utility functions
-│   ├── file.py                    # File handling utilities
 │   └── common.py                  # Common helper functions
 ├── conftest.py  
 ├── test_data.xlsx
